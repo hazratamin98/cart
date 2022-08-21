@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const Cart = ({ cart, setCart, handleChange }) => {
+//
   const [price, setPrice] = useState(0);
 
   const handleRemove = (id) => {
